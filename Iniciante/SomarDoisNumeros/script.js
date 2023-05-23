@@ -1,8 +1,8 @@
 function somarNumeros() {
     if (EntradaNumero1.value != '' && EntradaNumero2.value != '' ) {
     // Recuperar os valores dos campos de entrada
-    var num1 = parseFloat(document.getElementById('EntradaNumero1').value);
-    var num2 = parseFloat(document.getElementById('EntradaNumero2').value);
+    var num1 = parseFloat(document.getElementById('EntradaNumero1').value)
+    var num2 = parseFloat(document.getElementById('EntradaNumero2').value)
     
     // Realizar a soma
     var resultado = num1 + num2;

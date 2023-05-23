@@ -1,4 +1,74 @@
 body {
-    background: #404040;
-    font-family: Arial, sans-serif;
+  background: #404040;
+  font-family: Arial, sans-serif;
+}
+
+/* Definição da área do conteúdo */
+div.BoxFuncao {
+  background-color: #262626;
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+}
+
+/* Estilização título */
+div.BoxFuncao h2 {
+  color: #4b53bc;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+/* Estilização da função */
+div.Conteudo {
+	color: #ffffff;
+	font-size: 13pt;
+	margin: 2vh 0 0vh 2vw;
+}
+
+div.Btns { margin-left: 2vw;}
+
+div.Btns input {
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	font-family: Arial, sans-serif;
+	font-size: 13pt;
+	color: #ffffff;
+	background: #4b53bc;
+	border-radius: 5px;
+	border: none;
+	margin-right: 5px;
+}
+
+div#Resultado { margin-left: 2vw; color: #ffffff;}
+
+/* Estilização "rodapé" */
+div.BtnSavioDeveloper { text-align: center; }
+
+div.BtnSavioDeveloperLink a {	text-decoration: none; }
+
+button.BtnSavioDeveloperLink {
+  --bg: #404040;
+  --hover-bg: #4b53bc;
+
+  font-size: 15pt;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: #262626;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 0 10px;
+  transition: 0.2s;
+}
+
+button.BtnSavioDeveloperLink:hover {
+	color: #ffffff;
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+button.BtnSavioDeveloperLink:active {
+  transform: translate(0);
+  box-shadow: none;
 }

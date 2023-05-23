@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="PT-BR">
 
 <!-- 
@@ -9,18 +9,39 @@
 	Deixe sua contribuição 
 -->
 
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title >Média de notas </title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title > Média de notas </title>
 
-		<link rel="stylesheet" href="style.css">
-	</head>
+	<link rel="stylesheet" href="style.css">
+</head>
 
-	<body>
+<body>
+	<div class="BoxFuncao">
+		<h2> Média de notas </h2>
 
+		<div class="Conteudo">
+		<label for="Nota1"> Digite a primeira nota: <input type="number" id="Nota1"> </label> <br> <br>
+		<label for="Nota2"> Digite a segunda nota: <input type="number" id="Nota2"> </label> <br> <br>
+		<label for="Nota3"> Digite a terceira nota: <input type="number" id="Nota3"> </label> <br> <br>
+		<label for="Nota4"> Digite a quarta nota: <input type="number" id="Nota4"> </label> <br> <br>
+		</div>
 
-		<script src="script.js"></script>
-	</body>
+		<div class="Btns">
+			<input type="button" value="Calcular" id="Calcular" onclick="media()">
+			<input type="button" value="Limpar" onclick="limpar()">
+		</div>
+
+		<div id="Resultado"> <br> </div>
+
+		<div class="BtnSavioDeveloper">
+			<a href="https://github.com/SAV10DEVELOPER" target="_blank">
+			<button class="BtnSavioDeveloperLink"> SavioDeveloper @ 2023 </button> </a>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
 </html>
