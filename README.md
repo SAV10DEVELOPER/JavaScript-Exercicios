@@ -1,5 +1,5 @@
 # JavaScript-Exercicios
- JavaScript - Exercícios para prática
+ JavaScript - Exercícios para práticar
 
 ## Iniciante
-1 . Somar dois números
+- Somar dois números

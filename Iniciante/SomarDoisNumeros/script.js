@@ -5,7 +5,7 @@ function somarNumeros() {
     
     // Realizar a soma
     var resultado = num1 + num2;
-    
+
     // Exibir o resultado
-    document.getElementById('Resultado').innerHTML = 'Resultado: ' + resultado;
+    document.getElementById('Resultado').innerHTML = `<p> Resultado da soma entre ${num1} e ${num2} é: <strong> ${resultado} </strong> </p>`
 }

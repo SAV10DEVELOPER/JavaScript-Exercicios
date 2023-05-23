@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 
+<!-- 
+	by Sávio Pantoja 
+	@SavioDeveloper
+	2023
+
+	Deixe sua contribuição 
+-->
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,18 +20,23 @@
 
 <body>	
 	<div class="BoxFuncao">
+		<!-- Título do Exercício -->
 		<h2> Somando dois números </h2>
 	
 	<div class="SomarNumeros">
-		<label for="EntradaNumero1"> Digite o primeiro número: <input type="number" id="EntradaNumero1"> </label> <br> <br>
-		<label for="EntradaNumero2"> Digite o segundo número: <input type="number" id="EntradaNumero2"> </label> <br> <br>
+		<!-- Recebendo e armazenando as entradas -->
+		<label> Digite o primeiro número: <input type="number" id="EntradaNumero1"> </label> <br> <br>
+		<label> Digite o segundo número: <input type="number" id="EntradaNumero2"> </label> <br> <br>
 
-		<input type="button" value="Somar" onclick="somarNumeros()"> <br> <br> 
+		<!-- Inicia a função em JS -->
+		<input type="button" value="Somar" onclick="somarNumeros()" id="BtnSomar"> 
 
-		<div id="Resultado"> Resultado: </div>
+		<!-- Mostra o resultado -->
+		<div id="Resultado"> <br>  Resultado: </div>
 	</div>
 
 	<div class="BtnSavioDeveloper">
+		<!-- "Rodapé" -->
 		<a target="_blank" href="https://github.com/SAV10DEVELOPER">
 		<button class="BtnSavioDeveloperLink"> SavioDeveloper @ 2023 </button> </a>
 	</div>
