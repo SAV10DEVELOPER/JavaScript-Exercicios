@@ -2,6 +2,7 @@ body {
   background: #404040;
 	margin: 0%;
 	font-family: Arial, sans-serif;
+	border-top: 7px solid #4b53bc;
 }
 
 /* Estilização do box do conteúdo */
@@ -9,7 +10,7 @@ div.BoxFuncao {
   background-color: #262626;
   height: 45vh;
   width: 50vw;
-	margin: auto;
+  margin: auto;
 }
 
 /* Estilização Título */
@@ -52,6 +53,7 @@ div.Btns input {
 	border-radius: 5px;
 	border: none;
 	margin-right: 5px;
+	cursor: pointer;
 }
 
 /* Estilização Rodapé (SavioDeveloper) */
