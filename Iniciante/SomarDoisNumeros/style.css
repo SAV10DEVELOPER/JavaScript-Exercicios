@@ -1,5 +1,5 @@
 body {
-  background: #404040;
+  	background: #404040;
 	margin: 0%;
 	font-family: Arial, sans-serif;
 	border-top: 7px solid #4b53bc;
@@ -8,6 +8,8 @@ body {
 /* Estilização do box do conteúdo */
 div.BoxFuncao {
   background-color: #262626;
+  box-shadow: 10px 10px 8px rgba(75, 83, 188, .7);
+  border-radius: 30px;
   height: 45vh;
   width: 50vw;
   margin: auto;
@@ -39,10 +41,6 @@ div.SomarNumeros input[type="number"] {
 	width: 150px;
 }
 
-input.EntradaNumero1 {
-	font-size: 13pt;
-}
-
 div.Btns input {
 	text-decoration: none;
 	padding: 5px 10px 5px 10px;
@@ -57,13 +55,9 @@ div.Btns input {
 }
 
 /* Estilização Rodapé (SavioDeveloper) */
-div.BtnSavioDeveloper {
-	text-align: center;
-}
+div.BtnSavioDeveloper { text-align: center; }
 
-div.BtnSavioDeveloperLink a {
-	text-decoration: none;
-}
+div.BtnSavioDeveloperLink a { text-decoration: none; }
 
 button.BtnSavioDeveloperLink {
   --bg: #404040;
@@ -81,7 +75,7 @@ button.BtnSavioDeveloperLink {
 }
 
 button.BtnSavioDeveloperLink:hover {
-	color: #ffffff;
+  color: #ffffff;
   transform: translate(-0.25rem,-0.25rem);
   background: var(--hover-bg);
   box-shadow: 0.25rem 0.25rem var(--bg);

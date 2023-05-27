@@ -20,22 +20,29 @@
 
 <body>
 	<div class="BoxFuncao">
+		<!-- Título do Exercício -->
 		<h2> Média de notas </h2>
 
+		<!-- Recebendo e armazenando as entradas -->
 		<div class="Conteudo">
+		<label for="NomeAluno"> Digite o nome aluno (a): <input type="text" id="NomeAluno"> </label> <br> <br>
 		<label for="Nota1"> Digite a primeira nota: <input type="number" id="Nota1"> </label> <br> <br>
 		<label for="Nota2"> Digite a segunda nota: <input type="number" id="Nota2"> </label> <br> <br>
 		<label for="Nota3"> Digite a terceira nota: <input type="number" id="Nota3"> </label> <br> <br>
 		<label for="Nota4"> Digite a quarta nota: <input type="number" id="Nota4"> </label> <br> <br>
-		</div>
-
+		
+		<!-- Botões para iniciar as funções em JS -->
 		<div class="Btns">
 			<input type="button" value="Calcular" id="Calcular" onclick="media()">
 			<input type="button" value="Limpar" onclick="limpar()">
-		</div>
-
+		</div> 
+		
+		<!-- Mostra o resultado -->
 		<div id="Resultado"> <br> </div>
+		<div id="ResultadoVericacao"> <br> </div>
+	</div>
 
+		<!-- "Rodapé" -->
 		<div class="BtnSavioDeveloper">
 			<a href="https://github.com/SAV10DEVELOPER" target="_blank">
 			<button class="BtnSavioDeveloperLink"> SavioDeveloper @ 2023 </button> </a>

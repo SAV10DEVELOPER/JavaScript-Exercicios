@@ -1,6 +1,6 @@
 function somarNumeros() {
     if (EntradaNumero1.value != '' && EntradaNumero2.value != '' ) {
-    // Recuperar os valores dos campos de entrada
+    // Pegar os valores de entrada e armanzenar nas variáveis
     var num1 = parseFloat(document.getElementById('EntradaNumero1').value)
     var num2 = parseFloat(document.getElementById('EntradaNumero2').value)
     
@@ -15,6 +15,7 @@ function somarNumeros() {
     }
 }
 
+// Função para limpar as entradas
 function limparNumeros() {
     var limparNum1 = document.getElementById('EntradaNumero1')
     var limparNum2 = document.getElementById('EntradaNumero2')
