@@ -1,0 +1,47 @@
+body {
+  background: #404040;
+  border-top: 7px solid #4b53bc;
+  font-family: Arial, sans-serif;
+  margin: 0%;
+}
+
+div.BoxConteudo {
+  background: #262626;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 25px;
+  box-shadow: 10px 10px 7px #4b53bc80;
+  margin: auto;
+}
+
+div.BoxConteudo h2 {
+  text-align: center;
+  color: #4b53bc;
+  padding: 2vh 2vw 0vh 2vw;
+}
+
+div.Funcao {
+  padding: 0 0 2vh 2vw;
+  color: #ffffff;
+  font-size: 13pt;
+}
+
+div.Funcao input[type='number'] {
+  background: #404040;
+  color: #ffffff;
+  font-size: 13pt;
+  border: 1px solid #4b53bc;
+  border-radius: 5px;
+  padding: 4px 0 0px 4px;
+}
+
+div.Funcao input[type='button'] {
+  background: #4b53bc;
+  color: #ffffff;
+  font-size: 13pt;
+  border-radius: 5px;
+  border: none;
+  padding: 4px 6px 4px 6px;
+  margin-right: 0.5vw;
+  cursor: pointer;
+}
