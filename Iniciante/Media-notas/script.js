@@ -14,24 +14,24 @@ function media() {
     var mediaNotaFinal = mediaNota.toFixed(2)
     
     // Mostrar o resultado das médias
-    document.getElementById('Resultado').innerHTML = `<p> A média entre as notas: <strong> [ ${nota1}, ${nota2}, ${nota3} e ${nota4} ]</strong>, do aluno (a) ${aluno}, foi de <strong> ${mediaNotaFinal} pts </strong> </p>`
+    document.getElementById('Resultado').innerHTML = `<p> A média entre as notas: <span class='ClassJS'>${nota1}, ${nota2}, ${nota3}</span> e <span class='ClassJS'>${nota4}</span>, do aluno (a) <span class='ClassJS'>${aluno}</span>, foi de <span class='ClassJS'> ${mediaNotaFinal} pts </span> </p>`
     
     // Mensagem de error caso alguma entrada fique vazia
     if (Nota1.value == '' || Nota2.value == '' || Nota3.value == '' || Nota4.value == '' || NomeAluno.value == '') {
-    document.getElementById('Resultado').innerHTML = `<p> <strong> [ Error ] </strong> Valores inválidos, tente novamente. </P> `
+    document.getElementById('Resultado').innerHTML = `<p> <span class='ClassJS'> [ Error ] </span> Valores inválidos, tente novamente. </P> `
     }
 
     // Condição para ser aprovado
     else if (mediaNotaFinal >= 6) {
-    document.getElementById('ResultadoVericacao').innerHTML = `<p> <strong> [ Aprovado ] </strong> Nota >= 6.0 pts </p>` }
+    document.getElementById('ResultadoVericacao').innerHTML = `<p> <span class='ClassJS'> [ Aprovado ] </span> Nota >= 6.0 pts </p>` }
     
     // Condição para ficar de recuperção
     else if (mediaNotaFinal >= 5) {
-    document.getElementById('ResultadoVericacao').innerHTML = `<p> <strong> [ Recuperação ] </strong> Notas entre 5,0 pts ~ 6,0 pts </p>` }   
+    document.getElementById('ResultadoVericacao').innerHTML = `<p> <span class='ClassJS'> [ Recuperação ] </span> Notas entre 5,0 pts ~ 6,0 pts </p>` }   
     
     // Se nenhuma das duas condições de notas acima não forem, o aluno ficou reprovado
     else {
-    document.getElementById('ResultadoVericacao').innerHTML = `<p> <strong> [ Reprovado ] </strong> Nota < 5.0 pts </p>` } 
+    document.getElementById('ResultadoVericacao').innerHTML = `<p> <span class='ClassJS'> [ Reprovado ] </span> Nota < 5.0 pts </p>` } 
 }
 
 // Função para limpar as entradas

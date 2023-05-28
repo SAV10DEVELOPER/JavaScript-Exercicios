@@ -54,6 +54,11 @@ div.Btns input {
 	cursor: pointer;
 }
 
+.ClassJS {
+	color: #4b53bc;
+	font-weight: bolder;
+}
+
 /* Estilização Rodapé (SavioDeveloper) */
 div.BtnSavioDeveloper { text-align: center; }
 

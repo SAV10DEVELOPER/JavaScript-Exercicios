@@ -2,39 +2,49 @@
 <html lang="PT-BR">
 
 <!-- 
-  by Sávio Pantoja
-  @Saviodeveloper
-  2023
+	by Sávio Pantoja 
+	@SavioDeveloper
+	2023
+
+	Deixe sua contribuição 
 -->
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Maior e menor, em ordem e par ou impar </title>
+  <title> Maior e menor, em ordem e par ou ímpar </title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Conteúdo -->
   <div class="BoxConteudo">
-    <!-- Titulo -->
-    <h2> Qual é o maior e menor número, deixar em ordens e se são par ou impar </h2>
+		<!-- Título do Exercício -->
+    <h2> Qual é o maior e menor número e se são par ou ímpar </h2>
 
-    <!-- Conteúdo -->
+		<!-- Recebendo e armazenando as entradas -->
     <div class="Funcao">
     <label for="Numero1"> Digite o primeiro número: <input type="number" id="Numero1"> </label> <br> <br>
-    <label for="Numero1"> Digite o segundo número: <input type="number" id="Numero2"> </label> <br> <br>
-    <label for="Numero1"> Digite o terceiro número: <input type="number" id="Numero3"> </label> <br> <br>  
+    <label for="Numero2"> Digite o segundo número:  <input type="number" id="Numero2"> </label> <br> <br>
+    <label for="Numero3"> Digite o terceiro número: <input type="number" id="Numero3"> </label> <br> <br>
+    <label for="Numero4"> Digite o quarto número:   <input type="number" id="Numero4"> </label> <br> <br>
+    <label for="Numero5"> Digite o quinto número:   <input type="number" id="Numero5"> </label> <br> <br>
     
+    <!-- Botões para iniciar as funções em JS -->
     <input type="button" value="Verificar" id="BtnVerificar" onclick="verificar ()">
-    <input type="button" value="Limpar" id="BtnLimpar" onclick="limpar()">
+    <input type="button" value="Limpar" id="BtnLimpar" onclick="limpar()"> 
+    
+    <!-- Mostra o resultado -->
+    <div id="ResultadoMaior"> </div>
+    <div id="ResultadoMenor"> </div>
+    <div id="MsgError"> </div>
     </div>
 
     <!-- Rodapé-->
-    <div class="Rodape">
-
-    </div>
+		<div class="BtnSavioDeveloper">
+			<a href="https://github.com/SAV10DEVELOPER" target="_blank">
+			<button class="BtnSavioDeveloperLink"> SavioDeveloper @ 2023 </button> </a>
+		</div>
   </div>
     
   <script src="script.js"></script>

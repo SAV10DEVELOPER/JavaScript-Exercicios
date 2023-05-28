@@ -8,10 +8,11 @@ function somarNumeros() {
     var resultado = num1 + num2;
 
     // Exibir o resultado
-    document.getElementById('Resultado').innerHTML = `<p> Resultado da soma entre ${num1} e ${num2} é: <strong> ${resultado} </strong> </p>`
-
+    document.getElementById('Resultado').innerHTML = `<p> Resultado da soma entre <span class='ClassJS'>${num1}</span> e <span class='ClassJS'>${num2}</span> é: <span class='ClassJS'> ${resultado} <span> </p>`
+    
+    // Mensagem de erro
     } else {
-    document.getElementById('Resultado').innerHTML = `<p> <strong> [Error] </strong> Valor inválido </p>`
+    document.getElementById('Resultado').innerHTML = `<p> <span class='ClassJS'> [Error] </span> Valor inválido </p>`
     }
 }
 
