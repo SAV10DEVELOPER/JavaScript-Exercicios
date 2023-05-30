@@ -1,0 +1,27 @@
+body {
+  background: #404040;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border-top: 7px solid #4b53bc;
+}
+
+div.BoxConteudo {
+  background: #262626;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 30px;
+  box-shadow: 10px 10px 8px rgba(75, 83, 188, .7);
+  margin: auto;
+}
+
+div.BoxConteudo h2 {
+  color: #4b53bc;
+  text-align: center;
+  padding: 2vh 0 0 0;
+}
+
+div.Conteudo {
+  padding: 0 0 2vh 2vw;
+  color: #ffffff;
+  font-size: 13pt;
+}
