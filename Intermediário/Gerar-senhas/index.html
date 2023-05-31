@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<!-- 
+	by Sávio Pantoja 
+	@SavioDeveloper
+	2023
+
+	Deixe sua contribuição 
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gerar senhas </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="BoxConteudo">
+  <!-- Título -->
+  <h2> Gerar senhas </h2>
+ 
+  <!-- Recebendo e armazenando as entradas -->
+  <div class="Conteudo">
+  <label for="TamanhoSenha"> Tamanho da Senha: <output id="TamanhoSenha"> 10 </output> </label>
+  <input type="range" id="TamanhoSenhaRange" min="1" max="50" value="10" oninput="senhaRange()"> <br> <br>
+    
+  <!-- Checkbox da escolha dos caracteres -->
+  <label> <input type="checkbox" id="Maiusculas"> Letras Maiúsculas </label>
+  <label> <input type="checkbox" id="Minusculas"> Letras Minúsculas </label>
+  <label> <input type="checkbox" id="Numeros"> Números </label>
+  <label> <input type="checkbox" id="Especiais"> Caracteres Especiais </label>
+  
+  <!-- Mostra o resultado -->
+  <div class="BtnSaida" id="MsgErro"> </div>
+  <div class="BtnSaida" id="senhaResultado"> </div>
+  
+  <!-- Botões para iniciar as funções em JS -->
+  <input type="button" value="Gerar Senha" id="BtnVerificar" onclick="gerarSenha ()">
+  <input type="button" value="Limpar" id="BtnLimpar" onclick="limparSenha()"> 
+  <input type="button" value="Copiar Senha" id="BtnLimpar" onclick="copiarSenha()"> <br> <br>
+
+  <!-- Rodapé-->
+  <div class="BtnSavioDeveloper">
+  <a href="https://github.com/SAV10DEVELOPER" target="_blank">
+  <button class="BtnSavioDeveloperLink"> SavioDeveloper @ 2023 </button> </a> </div>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

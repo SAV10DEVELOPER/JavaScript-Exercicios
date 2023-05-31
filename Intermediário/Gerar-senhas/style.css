@@ -1,14 +1,14 @@
 body {
   background: #404040;
-	margin: 0%;
-	font-family: Arial, sans-serif;
-	border-top: 7px solid #4b53bc;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border-top: 7px solid #4b53bc;
 }
 
 /* Estilização do box do conteúdo */
 div.BoxConteudo {
   background: #262626;
-  height: 75vh;
+  height: 45vh;
   width: 50vw;
   border-radius: 30px;
   box-shadow: 10px 10px 8px rgba(75, 83, 188, .7);
@@ -17,30 +17,67 @@ div.BoxConteudo {
 
 /* Estilização título */
 div.BoxConteudo h2 {
-	color: #4b53bc;
-	text-align: center;
-	font-family: Arial, sans-serif;
-	padding-top: 3vh;
+  color: #4b53bc;
+  text-align: center;
+  padding: 2vh 0 0 0;
 }
 
 /* Contéudo */
-div.Funcao {
+div.Conteudo {
   padding: 0 0 2vh 2vw;
   color: #ffffff;
   font-size: 13pt;
 }
 
-div.Funcao input[type='number'] {
-	font-size: 13pt;
-	background-color: #404040;
-	color: #fff;
-	border: 2px solid #4b53bc;
-	border-radius: 5px;
-	padding: 5px;
-	width: 150px;
+div.Conteudo label {
+  margin-right: 1vw;
 }
 
-div.Funcao input[type='button'] {
+/* Estilização da barra de range */
+div.Conteudo input[type="range"] { vertical-align: center; }
+
+div.Conteudo input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background-color: #4b53bc;
+  height: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div.Conteudo input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -3px;
+}
+
+/* Checkbox */
+div.Conteudo input[type="checkbox"] {
+  -webkit-appearance: none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #4b53bc;
+  border-radius: 3px;
+  transition: background-color 0.5s;
+  vertical-align: bottom;
+}
+
+div.Conteudo input[type='checkbox']:checked {
+  background-color: #4b53bc;
+}
+
+input[type='checkbox']::before {
+  content: '\2713';
+  font-size: 10pt;
+  color: #ffffff;
+  display: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+input[type='checkbox']:checked::before { display: block; }
+
+div.Conteudo input[type='button'] {
 	text-decoration: none;
 	padding: 5px 10px 5px 10px;
 	font-family: Arial, sans-serif;
@@ -53,9 +90,13 @@ div.Funcao input[type='button'] {
 	cursor: pointer;
 }
 
-.ClassJS { 
+.BtnSaida {
+  margin: 3vh 0 3vh 0;
+}
+
+.classJS {
   color: #4b53bc;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 /* Estilização Rodapé (SavioDeveloper) */
@@ -76,7 +117,7 @@ button.BtnSavioDeveloperLink {
   padding: 5px 10px 5px 10px;
   margin: 0 10px 0 10px;
   transition: 0.2s;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 button.BtnSavioDeveloperLink:hover {
