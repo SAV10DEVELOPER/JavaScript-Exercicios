@@ -1,4 +1,4 @@
-# JavaScript-Exercicios
+# JavaScript-Pratica
  JavaScript - Exercícios para práticar
 
 ### Iniciante
