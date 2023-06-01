@@ -22,21 +22,25 @@
   <!-- Título -->
   <h2> Calcular idade </h2>
   
+  <!-- Box do conteúdo -->
   <div class="Conteudo">
 
+  <!-- Saída do resultado -->
   <div class="Saida">
-    <div> <span class="Anos"> 0 </span> <p> Anos </p> </div>    
+    <div> <span class="Anos">  0 </span> <p> Anos  </p> </div>    
     <div> <span class="Meses"> 0 </span> <p> Meses </p> </div>
-    <div> <span class="Dias"> 0 </span> <p> Dias </p> </div>
+    <div> <span class="Dias">  0 </span> <p> Dias  </p> </div>
   </div>
 
+  <!-- Recebendo e armazenando as entradas -->
   <div class="Entrada">
     <input type="date" id="EntradaData">
     <input type="button" value="Calcular Idade" id="BtnCalcular" onclick="calcularIdade()">
+    <input type="button" value="Limpar Entrada" onclick="limparDados()">
   </div>
 
+  <!-- Mensagem de Erro, caso não seja digitada uma data ou seja uma data que ainda não chegou -->
   <div id="MsgErro"> </div>
-
   </div>
 
   <!-- Rodapé-->
