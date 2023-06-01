@@ -1,0 +1,96 @@
+body {
+  background: #404040;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border-top: 7px solid #4b53bc;
+}
+
+/* Estilização do box do conteúdo */
+div.BoxConteudo {
+  background: #262626;
+  height: 50vh;
+  width: 40vw;
+  border-radius: 30px;
+  box-shadow: 10px 10px 8px rgba(75, 83, 188, .7);
+  margin: auto;
+}
+
+/* Estilização título */
+div.BoxConteudo h2 {
+  color: #4b53bc;
+  text-align: center;
+  padding: 2vh 0 0 0;
+}
+
+/* Conteudo */
+div.Saida {
+  width: 100%;
+  display: flex;  
+  gap: 40px;
+  justify-content: center;
+}
+
+div.Saida div {
+  height: 120px;
+  width: 120px;
+  color: #4b53bc;
+  background-color: #404040;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1vh;
+}
+
+div.Saida span {
+  font-size: 26pt;
+  font-weight: 600;
+}
+
+div.Saida p {
+  font-size: 13pt;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+div.Entrada {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 25px;
+  margin-top: 2vh;
+  border-radius: 5px;
+}
+
+/* Estilização Rodapé (SavioDeveloper) */
+div.BtnSavioDeveloper { text-align: center; }
+
+div.BtnSavioDeveloperLink a { text-decoration: none; }
+
+button.BtnSavioDeveloperLink {
+  --bg: #404040;
+  --hover-bg: #4b53bc;
+
+  font-size: 15pt;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: #262626;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 0 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button.BtnSavioDeveloperLink:hover {
+  color: #ffffff;
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+button.BtnSavioDeveloperLink:active {
+  transform: translate(0);
+  box-shadow: none;
+}
