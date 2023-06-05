@@ -9,3 +9,4 @@
 ### Intermediário
 - Calcular idade
 - Gerar senhas
+- Jogo da velha
